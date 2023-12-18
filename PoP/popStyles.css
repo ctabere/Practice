@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Add your preferred font stack */
+    margin: 0;
+    padding: 0;
+    background: url(background4.jpg);
+}
+
+/* Title and Navigation Styles */
+.title {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+    color: #0c0a72;
+}
+
+nav {
+    background-color: rgb(42, 143, 42);
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #8CC84B; /* Adjust the hover background color as needed */
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: calc(100% - 300px);
+    margin: 150px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center  ;
+    padding: 8px;
+    color: #031921;
+}
+table img {
+    max-width: 25%;
+    height: auto;
+  }
