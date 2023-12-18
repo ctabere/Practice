@@ -1,0 +1,51 @@
+                <!DOCTYPE html>
+                <html lang="en">
+                <meta charset="utf-8">
+                <title>Survey Form</title>
+                <link rel="stylesheet" href="styles.css" />
+                <head></head>
+                <body>
+                    <h1 id='title'>Title</h1>
+                    <p id='description'>Description Paragraph</p>
+                    <form id="survey-form" method='post'>
+                        <fieldset>
+                        <label id="name-label">Name
+                            <input id="name" type="text" placeholder="First Name" required>
+                        </label>
+                        <label id="email-label">Email
+                            <input id="email" type="email" placeholder="Example@gmail.com" required>
+                        </label>
+                        <label id="number-label">Number
+                            <input id="number" min="1" max="20" type="number" placeholder="1" required>
+                        </label>
+                    </fieldset>
+                <form>
+                        <label>What is you favorite Color?
+                            <select id="dropdown">
+                            <option id='purple'>Purple</option>
+                            <option id='red'>Red</option>
+                            <option id='blue'>Blue</option>
+                            </label>
+                    </form>
+
+                        <form id="survey-form" aria-required="true">
+                            <Label id="favanimal">What is your favorite amimal?</label>
+                            <label id="dog"><input name="favanimal" type="radio" value="dog" checked>Dog</label>
+                            <label id="cat"><input name="favanimal" type='radio' value="cat">Cat</Label>
+                            </form>
+                        <form id="survey-form" aria-required="true">
+                            <Label id="favfood">What is your favorite food?</label>
+                                <label id="pizza"><input name="favfood" type="radio" value="dog" checked>Dog</label>
+                                <label id="tacos"><input name="favfood" type='radio' value="cat">Cat</Label>
+                            
+                    </form>
+                    <form id='survey-form'>
+                        <label id='daynight'>Do you prefer the day or evening?</Label>
+                        <label id="day"><input id='daynight' value="day" name="daynight" TYPE="CHECKBOX" checked>DAY</label>
+                        <label id="night"><input id='daynight' value='night' name="daynight" TYPE="CHECKBOX">DAY</label>
+                    <form id='survey-form'>
+                    <textarea id="survey-form" placeholder="Comments Here"></textarea>
+                    <button id='submit' type="submit">submit</button>
+                    </form>
+                </body>
+                </html>
